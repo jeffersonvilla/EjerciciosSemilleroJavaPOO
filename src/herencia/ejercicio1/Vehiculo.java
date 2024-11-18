@@ -2,9 +2,9 @@ package herencia.ejercicio1;
 
 public class Vehiculo {
 
-    private String marca;
-    private String modelo;
-    private int año;
+    protected String marca;
+    protected String modelo;
+    protected int año;
 
     public Vehiculo(String marca, String modelo, int año) {
         this.marca = marca;
